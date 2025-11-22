@@ -14,6 +14,9 @@
     border-bottom: solid black 1px;
     gap: 10px;
     align-items: center;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 .navbar__s1__title{
     color:#A435F0 ;
@@ -40,6 +43,23 @@
  gap: 10px;
  align-items: center;
 }
+/* my learning popup*/
+.mylearning{
+    position: relative;
+    cursor: pointer;
+
+}
+.mylearning__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    top: 150%;
+    padding: 20px;
+    right: 0%;
+    display: none;
+    
+}
 .categorise{
     padding: 10px;
     display: flex;
@@ -52,12 +72,23 @@
     padding: 10px;
     border-radius: 30px;
 
+
+}
+.sale-image{
+    position: relative;
 }
 .sales-image img{
 
   width: 100%;
-
-
+}
+.sale-image__offer{
+    border: solid black 2px;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 5%;
 }
 .recomended{
     padding:10px;
